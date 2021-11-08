@@ -9,7 +9,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  background-color: chartreuse;
+  background: #ffffff;
   color: #212121;
 }
 
@@ -35,6 +35,9 @@ body {
 }
 
 /*-----------------HEDER----------------*/
+.header {
+  background: #ffffff;
+}
 
 .header-logo-web {
   font-family: Raleway;
@@ -94,6 +97,10 @@ body {
 }
 
 /*------------------HERO-----------------*/
+
+.hero {
+  background: #2f303a;
+}
 
 .hero-title {
   font-weight: 900;
@@ -184,6 +191,10 @@ body {
 }
 
 /*---------------FOOTER----------------*/
+
+.footer {
+  background: #2f303a;
+}
 
 .footer-logo-web {
   font-family: Raleway;

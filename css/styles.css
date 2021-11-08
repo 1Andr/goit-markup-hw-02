@@ -111,19 +111,12 @@ body {
   text-transform: uppercase;
   color: #ffffff;
 }
-.hero-button {
+.hero-btn {
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   text-align: center;
-  letter-spacing: 0.06em;
-  color: #ffffff;
-}
-
-.hero-btn {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
   letter-spacing: 0.06em;
   color: #ffffff;
 }
@@ -190,6 +183,38 @@ body {
   color: var(--speciality-text-color);
 }
 
+/*---------------PORTFOLIO----------------*/
+
+.filter-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+  background-color: var(--accent-color);
+}
+
+.portfolio-subtitle {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
 /*---------------FOOTER----------------*/
 
 .footer {
@@ -215,6 +240,7 @@ body {
 }
 
 .footer-address {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -227,6 +253,7 @@ body {
 }
 
 .footer-mail {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -239,6 +266,7 @@ body {
 }
 
 .footer-tel {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
